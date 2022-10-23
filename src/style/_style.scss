@@ -1,9 +1,7 @@
 body {
   max-width: 500px;
   margin: auto;
-  background-color: $back;
-  color: $text;
-  font-family: 'ABeeZee', sans-serif;
+  font-family: $body-font;
 }
 
 img {
