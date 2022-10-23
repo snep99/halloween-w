@@ -1,4 +1,5 @@
 $header-h: 3.5rem;
+
 //colors
 $first-color: hsl(22, 72%, 50%);
 $first-color-a: hsl(22, 72%, 46%);
@@ -6,6 +7,36 @@ $text-color: hsl(22, 4%, 75%);
 $text-color-li: hsl(22, 4%, 55%);
 $body-color: hsl(22, 8%, 6%);
 $container-color: hsl(22, 8%, 7%);
+
 //fonts and typography
+ /*.5rem = 8px | 1rem = 16px ...*/
 $body-font: 'Poppins', sans-serif;
 $sec-font: 'Butcherman', cursive;
+
+$biggest-fz: 2rem;
+$h1-fz: 1.5rem;
+$h2-fz: 1.25rem;
+$h3-fz: 1rem;
+$normal-fz: .938rem;
+$small-fz: .813rem;
+$smallest-fz: .75rem;
+
+//font weight 
+$font-medium: 500;
+$font-semi_bold: 600;
+$font-bold: 700;
+
+//z-index
+$z-tooltip: 10;
+$z-fixed: 100;
+
+//Responsive typography
+@media screen and (min-width: 1024px) {
+  $biggest-fz: 3.5rem;
+  $h1-fz: 2.25rem;
+  $h2-fz: 1.5rem;
+  $h3-fz: 1.25rem;
+  $normal-fz: 1rem;
+  $small-fz: .875rem;
+  $smallest-fz: .813rem;
+}
