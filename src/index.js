@@ -1,5 +1,6 @@
 //import icon
 import 'remixicon/fonts/remixicon.css'
-//мониторинг файлов
+//import 
 import './index.html';
 import './index.scss';
+import "./modules/show-menu"
