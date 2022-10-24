@@ -1,0 +1,13 @@
+/*header and nav*/
+.header {
+  position: fixed;
+  width: 100%;
+  background: transparent;
+  top: 0;
+  left: 0;
+  z-index: $z-fixed;
+  transition: background .3s, box-shadow .3s;
+}
+.nav {
+
+}
