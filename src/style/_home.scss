@@ -1,5 +1,13 @@
 .home {
   position: relative;
+  .shape__small {
+    top: -3rem;
+    left: -3rem;
+  }
+  .shape__big {
+    bottom: 5rem;
+    right: -10rem;
+  }
 }
 .home__container {
   padding-top: 5.5rem;
