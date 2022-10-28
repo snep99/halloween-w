@@ -4,3 +4,4 @@ import 'remixicon/fonts/remixicon.css'
 import './index.html';
 import './index.scss';
 import "./modules/show-menu"
+import "./modules/change-bg-header"
