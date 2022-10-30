@@ -1,0 +1,72 @@
+/*=== For small devices ===*/
+@media screen and (max-width: 340px){
+  .container {
+    margin-inline: 1rem;
+  }
+
+  /*section home*/
+  .home__title {
+    font-size: 1.5rem;
+  }
+  .home__tree-1 {
+    left: -4rem;
+  }
+  .home__tree-2 {
+    right: -4rem;
+  }
+
+  /*section items*/
+  .items__container {
+    grid-template-columns: 180px;
+  }
+
+  /*section party*/
+  .party__img {
+    width: 200px;
+  }
+
+  /*section footer*/
+  .footer__content {
+    gap: 0rem;
+    grid-template-columns: auto;
+  }
+}
+
+/*=== For medium devices ===*/
+@media screen and (min-width: 576px) {
+  /*section home*/
+  .home__container {
+    grid-template-columns: .6fr;
+    justify-content: center;
+  }
+  .home__tree-1,
+  .home__tree-2 {
+    width: 200px;
+  }
+
+  /*section about*/
+  .about__container {
+    grid-template-columns: .6fr;
+    justify-content: center;
+  }
+
+   /*section items*/
+   .items__container {
+    grid-template-columns: repeat(2, 200px);
+  }
+
+  /*section party*/
+  .party__container {
+    grid-template-columns: .6fr;
+    justify-content: center;
+  }
+
+  /*section footer*/
+  .footer__content {
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
+@media screen and (min-width: 767px) {
+  
+}
