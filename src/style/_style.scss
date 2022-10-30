@@ -97,3 +97,26 @@ img {
 .active-link {
   color: $first-color!important;
 }
+
+//scroll up 
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -50%;
+  color: $first-color;
+  font-size: 1.1rem;
+  background-color: $container-color;
+  box-shadow: 0 4px 8px hsla(22, 10%, 2%, .6);
+  padding: .45rem;
+  border-radius: .35rem;
+  display: inline-flex;
+  z-index: $z-tooltip;
+  transition: bottom .3s, transform .3s;
+  &:hover {
+    transform: translateY(-.25rem);
+
+  }
+}
+.show-scroll {
+  bottom: 3rem;
+}
