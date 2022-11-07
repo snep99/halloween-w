@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "remixicon": "^2.5.0"
+    "remixicon": "^2.5.0",
+    "scrollreveal": "^4.0.9"
   }
 }
